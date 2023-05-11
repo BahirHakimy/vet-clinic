@@ -46,12 +46,12 @@ CREATE TABLE IF NOT EXISTS vets (
 CREATE TABLE IF NOT EXISTS specializations(
     species_id INT REFERENCES species(id),
     vet_id INT REFERENCES vets(id),
-    PRIMARY KEY (species_id,vet_id)
+    PRIMARY KEY (species_id, vet_id)
 );
 
 CREATE TABLE IF NOT EXISTS visits(
     animal_id INT REFERENCES animals(id),
     vet_id INT REFERENCES vets(id),
     date DATE NOT NULL,
-    PRIMARY KEY (animal_id,vet_id)
+    PRIMARY KEY (animal_id, vet_id, date)
 );
