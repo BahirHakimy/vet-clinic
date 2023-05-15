@@ -136,9 +136,9 @@ AND date BETWEEN '2020-4-1' AND '2020-8-30';
 -- What animal has the most visits to vets?
 SELECT a.name AS animal, COUNT(*) AS visit_count
 FROM animals a
-JOIN visits v ON a.id = v.animal_id;
+JOIN visits v ON a.id = v.animal_id
 GROUP BY a.id, a.name
-ORDER BY visit_count DESC;
+ORDER BY visit_count DESC
 LIMIT 1;
 
 -- Who was Maisy Smith's first visit?
