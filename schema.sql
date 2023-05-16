@@ -62,3 +62,4 @@ ALTER TABLE visits ADD COLUMN id SERIAL PRIMARY KEY;
 
 CREATE INDEX visits_idx ON visits(animal_id);
 CREATE INDEX visits_index ON visits(vet_id);
+CREATE INDEX idx_owners_email ON owners(email);
