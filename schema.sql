@@ -56,8 +56,9 @@ CREATE TABLE IF NOT EXISTS visits(
     PRIMARY KEY (animal_id, vet_id, date_of_visit)
 );
 
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 ALTER TABLE visits DROP CONSTRAINT visits_pkey;
 ALTER TABLE visits ADD COLUMN id SERIAL PRIMARY KEY;
-ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 CREATE INDEX visits_idx ON visits(animal_id);
+CREATE INDEX visits_index ON visits(vet_id);
