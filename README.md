@@ -97,9 +97,10 @@ To use queries provided in this project run psql command and copy all commands o
 - [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" width='20'/> Twitter](https://twitter.com/bahir_hakimy)
 
 👤 **Muhammed B**
-GitHub: [@githubhandle](https://github.com/muhammedb8826)
-Twitter: [@twitterhandle](https://twitter.com/muhammedb6626)
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammedb8826/)
+
+- GitHub: [@githubhandle](https://github.com/muhammedb8826)
+- Twitter: [@twitterhandle](https://twitter.com/muhammedb6626)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammedb8826/)
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
